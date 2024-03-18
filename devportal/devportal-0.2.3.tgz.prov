@@ -1,0 +1,34 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.2.0
+description: A Helm chart for Kubernetes
+home: https://platform.vee.codes/
+icon: https://platform.vee.codes/assets/logo/logo.png
+keywords:
+- - veecode
+- - platform
+- - devportal
+- - backstage
+- - api management
+name: devportal
+type: application
+version: 0.2.3
+
+...
+files:
+  devportal-0.2.3.tgz: sha256:64a0254af873f95c5b51b8c301777873f01e9bf25d8c3179e9887c70130311af
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJkSWAgCRCN3pvHOUyOqwAA6JoMAAC1OKUAY0zCphKGFXO+tN5N
+guYiiMx168tfPaKKKEkZmlNvO8coewl4LQfM/sFNHb7uUSNFV6nRPU8WfoN7AfvR
+AErHbeolVNi6DUVLiGeEtRXf9MGQSjOLyUJ2bN83pChRWbfksBkRjPwvnFRw7adh
+HqMqTjznlTkJcLNNJLeuShqkdkSVv5rEslW8MgMPcL+xfuCVBZCBuOKu5OKKarbV
+TJUfcS3WGFRscUb55dxVmCgy7WeaclYRwS75n3MLe510i5V/gOmeRbSm29EgWTN9
+JvrT8f2OVnp49Vc4oXhBvNlqulkygxoXjKSsiTKFZzwMrKReeuaO1mbP1hEF9PMT
+YnosUjMeG8m3qdCCNpMmhmlymhH4fYrQBGSMHNHyI9rLW34XJ9YqS/FF6T65a6FY
+6ZtcQyoxDaIdF3nB2na98YeiuqrQcgonPmjDpz9sq1CDcQL0D+DexfXj/E0VdJED
++dG1DOM828330gxBkkAI4G071Kk+tdaDK2jhbvwWJA==
+=UaDK
+-----END PGP SIGNATURE-----
