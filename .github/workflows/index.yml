@@ -1,0 +1,30 @@
+name: Publishing Chart
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  run:
+    name: Publishing new Helm Chart
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: "./"
+
+      - name: Generate index.md
+        run: npx --yes markdown-to-html-cli --source ./README.md --output index.html
+
+      - name: Generating index
+        run: helm repo index .
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          user_name: VeecodePlatform[bot]
+          user_email: actions-bot@vee.codes
+
