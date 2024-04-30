@@ -15,5 +15,4 @@ helm remove repo veecode-platform
 ```
 
 ## Charts available
-* [devportal](https://artifacthub.io/packages/helm/veecode-platform/devportal)
-* [devportal-admin-ui](https://artifacthub.io/packages/helm/veecode-platform/devportal-admin-ui)
+* [devportal](https://docs.platform.vee.codes/devportal/intro/)
