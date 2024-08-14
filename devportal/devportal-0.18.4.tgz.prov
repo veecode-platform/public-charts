@@ -2,7 +2,7 @@
 Hash: SHA512
 
 apiVersion: v2
-appVersion: 0.20.3
+appVersion: 0.20.4
 description: Platform devportal helm chart.
 home: https://platform.vee.codes/
 icon: https://platform.vee.codes/android-chrome-512x512.png
@@ -19,17 +19,17 @@ version: 0.18.4
 
 ...
 files:
-  devportal-0.18.4.tgz: sha256:10182ffc011eb4eb0975cf0aa0a86a6debffc28a21dd5b074cc51f35a5aea155
+  devportal-0.18.4.tgz: sha256:2c6cfa17055a55e1667a2fb4bff5156085e2b24dfac5b235e463c477f66ac590
 -----BEGIN PGP SIGNATURE-----
 
-wsDcBAEBCgAQBQJmvBTECRCN3pvHOUyOqwAA3PEMAI8YRooWtRbjtwqH7qTGOctv
-VKcYTxvqFuEDs4L0TVDaGzhujMIXx60REbspSloIvhZvNU5DQ0n5qakkwhBzooz1
-CYJeAQ3RYj+D1xdEqnwtGVAlrgI9M7wYrsLu/OCn6e5ixIcgcssTO4NhLhufOF/U
-OsCzMzj0nsbiqPCozTi0gD/g75/QiNK6vGUiSVtRtKUfqXCRq82bGFNDcs4wl/Be
-PEdlmVyVK4rqAVaJMTyqh25V99QNLKMVriPC6DCKSNPEjCA3m/GBu8xzl+/9xjtb
-dKlBf4l1Zu9PYo8GJ1/6mhUU5XwT/btWjea9mI7+BWvx+EhgHc9vM9cxVudZrc4Z
-zCaqpIGNEXdpEUZa/1ciXk2+k2rpXkODwqQaMABb0PRMA5hb59XoSeUbgWKXy7TF
-6QGZ6srLE3yx0TGDZsXgQiTTEeBU51OSDW2MbO0qJaf7/HHZOZUjnzePOD7yEZxU
-RcAOM7PtpUni/9sSdf2UG5EE4Q2wb9mrBuqQ/ISQAA==
-=Qt/A
+wsDcBAEBCgAQBQJmvBf1CRCN3pvHOUyOqwAAc6AMAB7XyN0t0G3UsyUfCtDkXhJS
+uPj/UQjcv3M2YQ/FtVzCnMZv00CrGpRjV6ifhsfHGHBOqAnfX3MddQLyKvksIxuk
+CCfZPoIfVz6aFOp5QaDuKRGh66aiRcUcFa5QxgnVkzwoanIPgpKtwsbY9QTU48mF
+PbsKRrIW9QL65BcdayjV6brNpeIeDcNKiu/lftDBa92OMpNve4L6ElT5o5yqj4HU
+fIIdt+X+tSVma5xRx2kCbBWLOsrqxN3LVoNhHF73S/K6koWcSpOJtM/e7b6P95D2
+Gi/7v9p3JN9lBL/k7k/yyPfl++yHGTa0nIPuYg2xHZBEyLe8Hx7lF+Hf9Wm4DzrW
+gUxgM8JrUKsHAeUSyod5U7ghSV0GAX85XmuU+MxVPPVGYIMK2vkUUZJnhDbX5Uzd
+HoWpxgfz+yEpSPngeigJi5QIRdlNUJXlljFNbtmvea24YnG7XoCObsSRspSH/pwk
+hgQNJSl4GczdwGtHbneVLXIUv6+P3Sm65DTbnJKiSA==
+=1bKC
 -----END PGP SIGNATURE-----
