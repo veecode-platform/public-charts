@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.22.20
+description: Platform devportal helm chart.
+home: https://platform.vee.codes/
+icon: https://platform.vee.codes/android-chrome-512x512.png
+keywords:
+- - veecode
+- - platform
+- - devportal
+- - backstage
+- - api management
+- - idp
+name: devportal
+type: application
+version: 0.19.20
+
+...
+files:
+  devportal-0.19.20.tgz: sha256:9b0e520a60eec77c6a442e6e0b1e809b16f113b7db8308bad7aeb9699b742aee
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJoNLscCRCN3pvHOUyOqwAAIYAMAHsd6oqqCq+VqeIH0y6I1E+i
+UhGOa1mQtzPAIYSNHu41dI2rd4OchlZFXql8A0rnIQRX398VBHtYyNIV9RSBQwni
+XOhCxB2eXiHrebWJHwuzlZZ6hOfohmB/a+IyrjbDS3i09IEG/IeH3YekJEjewYck
+uu59vkoKcMm6dqqeJuywRoZ8yAUUXgWRDpy1lhCzH67bMSx4HEZxURcV+JeVpVsU
+FHjXzGAKWRwiI6c/vi1kOKSh6SFBGHI0Q41qh4SH7smTulR9jEEo2Hv/jClX/jEj
+SNB1fot5P+Qj+oc0Bho823SZpRmn2uZYjs10r6CR6OGLaIWJTrBANIcbcxsrDUll
+26EXocGYb8QA3u9ljXfplCn95BiqOsZtgu941o4pF7j4IdK1hQit6sb2f0zffql3
+mZGjV2vWIZEQ4BOt0a+n25gC9Ua/64jalgvgSaEj0jF0NJPPnzqkxYwbinrSTwrA
+MhDQ563JMNNHSTfkw+0pVnAZIiO0a0JUCIHGztkM0w==
+=cbv9
+-----END PGP SIGNATURE-----
