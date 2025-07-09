@@ -2,8 +2,33 @@ apiVersion: v1
 entries:
   devportal:
   - apiVersion: v2
+    appVersion: 1.0.10
+    created: "2025-07-09T14:16:31.766743805Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.31.3
+    description: Platform devportal helm chart.
+    digest: 7636dce169f41e3cb7b8137a65b643c3cc9488544a3e916a8fd677a73bbe5275
+    home: https://platform.vee.codes/
+    icon: https://platform.vee.codes/android-chrome-512x512.png
+    keywords:
+    - veecode
+    - platform
+    - devportal
+    - backstage
+    - api management
+    - idp
+    name: devportal
+    type: application
+    urls:
+    - devportal/devportal-0.20.15.tgz
+    version: 0.20.15
+  - apiVersion: v2
     appVersion: 1.0.9
-    created: "2025-07-09T02:42:09.251796447Z"
+    created: "2025-07-09T14:16:31.764995028Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -28,7 +53,7 @@ entries:
     version: 0.20.14
   - apiVersion: v2
     appVersion: 1.0.8
-    created: "2025-07-09T02:42:09.249281239Z"
+    created: "2025-07-09T14:16:31.76297308Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -53,7 +78,7 @@ entries:
     version: 0.20.13
   - apiVersion: v2
     appVersion: 1.0.7
-    created: "2025-07-09T02:42:09.247592942Z"
+    created: "2025-07-09T14:16:31.760845662Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -78,7 +103,7 @@ entries:
     version: 0.20.12
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2025-07-09T02:42:09.245862054Z"
+    created: "2025-07-09T14:16:31.759123876Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -103,7 +128,7 @@ entries:
     version: 0.20.11
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2025-07-09T02:42:09.243198436Z"
+    created: "2025-07-09T14:16:31.75737552Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -128,7 +153,7 @@ entries:
     version: 0.20.10
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2025-07-09T02:42:09.26151781Z"
+    created: "2025-07-09T14:16:31.77730628Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -153,7 +178,7 @@ entries:
     version: 0.20.9
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2025-07-09T02:42:09.259787874Z"
+    created: "2025-07-09T14:16:31.774758291Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -178,7 +203,7 @@ entries:
     version: 0.20.8
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-07-09T02:42:09.257320466Z"
+    created: "2025-07-09T14:16:31.772995877Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -203,7 +228,7 @@ entries:
     version: 0.20.7
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-07-09T02:42:09.255650403Z"
+    created: "2025-07-09T14:16:31.771266768Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -228,7 +253,7 @@ entries:
     version: 0.20.6
   - apiVersion: v2
     appVersion: 0.23.2
-    created: "2025-07-09T02:42:09.253940235Z"
+    created: "2025-07-09T14:16:31.768800212Z"
     description: Platform devportal helm chart.
     digest: e80576099bfac786bb86e501d4469391238fa1d1e2305a9d4c74db21eb499f06
     home: https://platform.vee.codes/
@@ -247,7 +272,7 @@ entries:
     version: 0.20.4
   - apiVersion: v2
     appVersion: 0.23.1
-    created: "2025-07-09T02:42:09.252883339Z"
+    created: "2025-07-09T14:16:31.767767375Z"
     description: Platform devportal helm chart.
     digest: a997a5d80d5381f863e2fc46eab672b6461bfc72727faa68a2cd4e4e048216e8
     home: https://platform.vee.codes/
@@ -266,7 +291,7 @@ entries:
     version: 0.20.2
   - apiVersion: v2
     appVersion: 0.23.0
-    created: "2025-07-09T02:42:09.241411632Z"
+    created: "2025-07-09T14:16:31.754909259Z"
     description: Platform devportal helm chart.
     digest: 80f77e4c509d90670b848fa28ce0a04d3599532484a2915c71bd4dc7987dc98b
     home: https://platform.vee.codes/
@@ -285,7 +310,7 @@ entries:
     version: 0.20.1
   - apiVersion: v2
     appVersion: 0.22.23
-    created: "2025-07-09T02:42:09.222039871Z"
+    created: "2025-07-09T14:16:31.744046025Z"
     description: Platform devportal helm chart.
     digest: ab4ebb1230431fb5de8ab2714a105534449ea0f0eaa9592cb233bf8b686ea1f3
     home: https://platform.vee.codes/
@@ -304,7 +329,7 @@ entries:
     version: 0.19.23
   - apiVersion: v2
     appVersion: 0.22.22
-    created: "2025-07-09T02:42:09.221063007Z"
+    created: "2025-07-09T14:16:31.742906526Z"
     description: Platform devportal helm chart.
     digest: 8443a2dd67fe51e153c4e2bd0e3db7f82b37cab3ae241136f5169a4029be51ac
     home: https://platform.vee.codes/
@@ -323,7 +348,7 @@ entries:
     version: 0.19.22
   - apiVersion: v2
     appVersion: 0.22.21
-    created: "2025-07-09T02:42:09.220091874Z"
+    created: "2025-07-09T14:16:31.740929213Z"
     description: Platform devportal helm chart.
     digest: 8463bcf3074d501393f1f67c82cda6b11f1ba680d87043bf53f17476d87ba4f1
     home: https://platform.vee.codes/
@@ -342,7 +367,7 @@ entries:
     version: 0.19.21
   - apiVersion: v2
     appVersion: 0.22.20
-    created: "2025-07-09T02:42:09.219060616Z"
+    created: "2025-07-09T14:16:31.734646979Z"
     description: Platform devportal helm chart.
     digest: 9b0e520a60eec77c6a442e6e0b1e809b16f113b7db8308bad7aeb9699b742aee
     home: https://platform.vee.codes/
@@ -361,7 +386,7 @@ entries:
     version: 0.19.20
   - apiVersion: v2
     appVersion: 0.22.19
-    created: "2025-07-09T02:42:09.216594112Z"
+    created: "2025-07-09T14:16:31.732471267Z"
     description: Platform devportal helm chart.
     digest: 1ead4d0c51bc0c2d741843077d8205326819b01df4712ababbd506ad030029b8
     home: https://platform.vee.codes/
@@ -380,7 +405,7 @@ entries:
     version: 0.19.19
   - apiVersion: v2
     appVersion: 0.22.18
-    created: "2025-07-09T02:42:09.215186061Z"
+    created: "2025-07-09T14:16:31.731471231Z"
     description: Platform devportal helm chart.
     digest: 36807c489d35def07a54f41cd5cf8856d3fc78ef98825fbd3e4bb739909e1dac
     home: https://platform.vee.codes/
@@ -399,7 +424,7 @@ entries:
     version: 0.19.18
   - apiVersion: v2
     appVersion: 0.22.17
-    created: "2025-07-09T02:42:09.214203126Z"
+    created: "2025-07-09T14:16:31.730466276Z"
     description: Platform devportal helm chart.
     digest: 6958b12e36c2ee3509dc744869c1e4d0c7b323c3553ae6e7d2283a33ca29dfaa
     home: https://platform.vee.codes/
@@ -418,7 +443,7 @@ entries:
     version: 0.19.17
   - apiVersion: v2
     appVersion: 0.22.16
-    created: "2025-07-09T02:42:09.213203228Z"
+    created: "2025-07-09T14:16:31.729361844Z"
     description: Platform devportal helm chart.
     digest: 46b7dab2137c8583f4ea95b6c107b36ecc52fb2ae9020aa04c30d3353493f9d7
     home: https://platform.vee.codes/
@@ -437,7 +462,7 @@ entries:
     version: 0.19.16
   - apiVersion: v2
     appVersion: 0.22.15
-    created: "2025-07-09T02:42:09.212145091Z"
+    created: "2025-07-09T14:16:31.727388784Z"
     description: Platform devportal helm chart.
     digest: 6551b6364f56897877ca52dc66cb84c679afb351a4016442ecc8947f0bbd8793
     home: https://platform.vee.codes/
@@ -456,7 +481,7 @@ entries:
     version: 0.19.15
   - apiVersion: v2
     appVersion: 0.22.15
-    created: "2025-07-09T02:42:09.211150152Z"
+    created: "2025-07-09T14:16:31.726375403Z"
     description: Platform devportal helm chart.
     digest: fe3f505569bd4a63288773cc39d8a0d136f7dc1e95baa0015e1cba014f3eaaa4
     home: https://platform.vee.codes/
@@ -475,7 +500,7 @@ entries:
     version: 0.19.14
   - apiVersion: v2
     appVersion: 0.22.13
-    created: "2025-07-09T02:42:09.209862011Z"
+    created: "2025-07-09T14:16:31.718489535Z"
     description: Platform devportal helm chart.
     digest: 7f856def139311de92e734dedb64fadea2abcf394a3080fd654391d5fc8b5388
     home: https://platform.vee.codes/
@@ -494,7 +519,7 @@ entries:
     version: 0.19.13
   - apiVersion: v2
     appVersion: 0.22.12
-    created: "2025-07-09T02:42:09.204723712Z"
+    created: "2025-07-09T14:16:31.717470965Z"
     description: Platform devportal helm chart.
     digest: cf3359e317221904dfbd7ae482b1b4f15acaf327ad05794fc523c9305287d24b
     home: https://platform.vee.codes/
@@ -513,7 +538,7 @@ entries:
     version: 0.19.12
   - apiVersion: v2
     appVersion: 0.22.11
-    created: "2025-07-09T02:42:09.203718314Z"
+    created: "2025-07-09T14:16:31.716459187Z"
     description: Platform devportal helm chart.
     digest: 0b27f7db02b7a6e412d4e42112dd24a5160ae0e2c429d0793a8ae816313124e2
     home: https://platform.vee.codes/
@@ -532,7 +557,7 @@ entries:
     version: 0.19.10
   - apiVersion: v2
     appVersion: 0.22.11
-    created: "2025-07-09T02:42:09.23382901Z"
+    created: "2025-07-09T14:16:31.751694749Z"
     description: Platform devportal helm chart.
     digest: bd3cfe9b3b43b18929db2f14830133c8d23a00a3186684463b341c3d51d629eb
     home: https://platform.vee.codes/
@@ -551,7 +576,7 @@ entries:
     version: 0.19.9
   - apiVersion: v2
     appVersion: 0.22.10
-    created: "2025-07-09T02:42:09.232823311Z"
+    created: "2025-07-09T14:16:31.750672071Z"
     description: Platform devportal helm chart.
     digest: ce6ff4db0247f41ba2f5ea42abe810d5e82adbcd9f61e03683ea61de86c8283b
     home: https://platform.vee.codes/
@@ -570,7 +595,7 @@ entries:
     version: 0.19.8
   - apiVersion: v2
     appVersion: 0.22.8
-    created: "2025-07-09T02:42:09.231855794Z"
+    created: "2025-07-09T14:16:31.748947677Z"
     description: Platform devportal helm chart.
     digest: c4f72aaeef5dec9d5bcbae613b14996905d7b9f9d123173aa02802ac95bdb135
     home: https://platform.vee.codes/
@@ -589,7 +614,7 @@ entries:
     version: 0.19.7
   - apiVersion: v2
     appVersion: 0.22.8
-    created: "2025-07-09T02:42:09.230922703Z"
+    created: "2025-07-09T14:16:31.747933925Z"
     description: Platform devportal helm chart.
     digest: 2a9f9bd85040620489e4879b15d7b3fc521b22601e1952301a1a180e4163dd73
     home: https://platform.vee.codes/
@@ -608,7 +633,7 @@ entries:
     version: 0.19.6
   - apiVersion: v2
     appVersion: 0.22.4
-    created: "2025-07-09T02:42:09.229961989Z"
+    created: "2025-07-09T14:16:31.746947746Z"
     description: Platform devportal helm chart.
     digest: 85bf7381138c1afd81a77180bb431684f805804306c37ccd4bbffe2822b3e2b2
     home: https://platform.vee.codes/
@@ -627,7 +652,7 @@ entries:
     version: 0.19.5
   - apiVersion: v2
     appVersion: 0.22.0
-    created: "2025-07-09T02:42:09.228636918Z"
+    created: "2025-07-09T14:16:31.745989179Z"
     description: Platform devportal helm chart.
     digest: 26893e5e9bc4a1672fe630ffbcc8c2c0c306118532efc7ed8dd6d62c3a4a1b63
     home: https://platform.vee.codes/
@@ -646,7 +671,7 @@ entries:
     version: 0.19.4
   - apiVersion: v2
     appVersion: 0.21.7
-    created: "2025-07-09T02:42:09.223002729Z"
+    created: "2025-07-09T14:16:31.745020172Z"
     description: Platform devportal helm chart.
     digest: 9ef892742ff1ffd00036ad0bfab63c16001a55168f6546cbbe4facf8d8dbd1f0
     home: https://platform.vee.codes/
@@ -665,7 +690,7 @@ entries:
     version: 0.19.3
   - apiVersion: v2
     appVersion: 0.21.6
-    created: "2025-07-09T02:42:09.218039078Z"
+    created: "2025-07-09T14:16:31.733604303Z"
     description: Platform devportal helm chart.
     digest: e87078d4280e6500d2952241331a7c39d5e86e451f569e4be8eb7a096acc97b3
     home: https://platform.vee.codes/
@@ -684,7 +709,7 @@ entries:
     version: 0.19.2
   - apiVersion: v2
     appVersion: 0.21.5
-    created: "2025-07-09T02:42:09.202690694Z"
+    created: "2025-07-09T14:16:31.715445115Z"
     description: Platform devportal helm chart.
     digest: e3452f7c3f884cbc00ccaaf5233a3c440fba02cc1c013e363b48fbd50bba3db9
     home: https://platform.vee.codes/
@@ -703,7 +728,7 @@ entries:
     version: 0.19.1
   - apiVersion: v2
     appVersion: 0.21.3
-    created: "2025-07-09T02:42:09.201717727Z"
+    created: "2025-07-09T14:16:31.714129643Z"
     description: Platform devportal helm chart.
     digest: 9c1fd6390e8043f3913726ff5382ab93a3afd94d320efc8946bb9480ee055960
     home: https://platform.vee.codes/
@@ -722,7 +747,7 @@ entries:
     version: 0.19.0
   - apiVersion: v2
     appVersion: 0.20.5
-    created: "2025-07-09T02:42:09.200729572Z"
+    created: "2025-07-09T14:16:31.712782403Z"
     description: Platform devportal helm chart.
     digest: 8ad702f412d3ac50c944ee3838ccf22650b85960ce18a1038be9c4d38b0ffb19
     home: https://platform.vee.codes/
@@ -741,7 +766,7 @@ entries:
     version: 0.18.4
   - apiVersion: v2
     appVersion: 0.20.2
-    created: "2025-07-09T02:42:09.199332304Z"
+    created: "2025-07-09T14:16:31.711860144Z"
     description: Platform devportal helm chart.
     digest: 10d9cb7a3862af9ae488d24c6f556634d3c8153ce4d850ef7c61d01678db48b9
     home: https://platform.vee.codes/
@@ -760,7 +785,7 @@ entries:
     version: 0.18.3
   - apiVersion: v2
     appVersion: 0.20.1
-    created: "2025-07-09T02:42:09.197933964Z"
+    created: "2025-07-09T14:16:31.710920823Z"
     description: Platform devportal helm chart.
     digest: a243e27ba2d68c81d6d13d9df66f6d88d65751c6a4dd2b182ee72949aa6bb8c9
     home: https://platform.vee.codes/
@@ -779,7 +804,7 @@ entries:
     version: 0.18.2
   - apiVersion: v2
     appVersion: 0.20.0
-    created: "2025-07-09T02:42:09.196975846Z"
+    created: "2025-07-09T14:16:31.709993885Z"
     description: Platform devportal helm chart.
     digest: 98985698dd9393a662abd4dfc80eb4dc36bd597fbeaea8d8809595694311c9d6
     home: https://platform.vee.codes/
@@ -798,7 +823,7 @@ entries:
     version: 0.18.1
   - apiVersion: v2
     appVersion: 0.19.0
-    created: "2025-07-09T02:42:09.196076357Z"
+    created: "2025-07-09T14:16:31.709043924Z"
     description: Platform devportal helm chart.
     digest: 7ce9ba0e9447b684d6b998aa0b9909aa9939f33eae21278f62e74a559319880e
     home: https://platform.vee.codes/
@@ -817,7 +842,7 @@ entries:
     version: 0.17.0
   - apiVersion: v2
     appVersion: 0.18.3
-    created: "2025-07-09T02:42:09.195189353Z"
+    created: "2025-07-09T14:16:31.708098301Z"
     description: Platform devportal helm chart.
     digest: 6ddc215edbe03e4791c927ddd5397f93342d2fe98d58e1141b1d6fd1d85047fb
     home: https://platform.vee.codes/
@@ -836,7 +861,7 @@ entries:
     version: 0.16.1
   - apiVersion: v2
     appVersion: 0.17.7
-    created: "2025-07-09T02:42:09.194305895Z"
+    created: "2025-07-09T14:16:31.706277991Z"
     description: Platform devportal helm chart.
     digest: d2f54c044a52f0c72006d1f6377bb5e819b75bc66312bde3d44228f8cae087f3
     home: https://platform.vee.codes/
@@ -855,7 +880,7 @@ entries:
     version: 0.16.0
   - apiVersion: v2
     appVersion: 0.16.3
-    created: "2025-07-09T02:42:09.193336916Z"
+    created: "2025-07-09T14:16:31.705424773Z"
     description: Platform devportal helm chart.
     digest: c5cf12d1d8c3b8db34c7704123c68697b9e57e7d628a8a5c33e8535111d26870
     home: https://platform.vee.codes/
@@ -874,7 +899,7 @@ entries:
     version: 0.15.5
   - apiVersion: v2
     appVersion: 0.16.3
-    created: "2025-07-09T02:42:09.173205257Z"
+    created: "2025-07-09T14:16:31.704604436Z"
     description: Platform devportal helm chart.
     digest: a11525ae9ba5413294b1b8638eb1b3ff35cc4805eaa2df4f9962268b55afadff
     home: https://platform.vee.codes/
@@ -893,7 +918,7 @@ entries:
     version: 0.15.4
   - apiVersion: v2
     appVersion: 0.14.1
-    created: "2025-07-09T02:42:09.172362667Z"
+    created: "2025-07-09T14:16:31.703745186Z"
     description: Platform devportal helm chart.
     digest: 4e4bb2dd5359d56d1cbf3986cf73be5aab6162a69f91721aa0547eefde6e167b
     home: https://platform.vee.codes/
@@ -912,7 +937,7 @@ entries:
     version: 0.15.2
   - apiVersion: v2
     appVersion: 0.14.0
-    created: "2025-07-09T02:42:09.171715044Z"
+    created: "2025-07-09T14:16:31.703039766Z"
     description: Platform devportal helm chart.
     digest: 1978e3d86bd9ef267abbf0aa1018480ff68b7d9b3e0d355e6afe2b1958810c15
     home: https://platform.vee.codes/
@@ -931,7 +956,7 @@ entries:
     version: 0.15.1
   - apiVersion: v2
     appVersion: 0.13.0
-    created: "2025-07-09T02:42:09.170936444Z"
+    created: "2025-07-09T14:16:31.70227828Z"
     description: Platform devportal helm chart.
     digest: f1a824197d9ec1212ca0944d539df483ff861b06e53c32c388e946619314ec22
     home: https://platform.vee.codes/
@@ -950,7 +975,7 @@ entries:
     version: 0.15.0
   - apiVersion: v2
     appVersion: 0.12.1
-    created: "2025-07-09T02:42:09.170175237Z"
+    created: "2025-07-09T14:16:31.701479223Z"
     description: Platform devportal helm chart.
     digest: 3c965d2f549101341da0a4ec949a60af7b9afc78898c72b8a31820218c81f152
     home: https://platform.vee.codes/
@@ -969,7 +994,7 @@ entries:
     version: 0.14.4
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2025-07-09T02:42:09.16945635Z"
+    created: "2025-07-09T14:16:31.699866741Z"
     description: Platform devportal helm chart.
     digest: 84814d4368a1bd3062ecee2fc932a0f47769798ee67114d303ae1deabf4a7c06
     home: https://platform.vee.codes/
@@ -988,7 +1013,7 @@ entries:
     version: 0.14.3
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2025-07-09T02:42:09.168665156Z"
+    created: "2025-07-09T14:16:31.69912345Z"
     description: Platform devportal helm chart.
     digest: a5945938381321e286298211b9092156a418b40f8560d9589cb7e82c7da66e6b
     home: https://platform.vee.codes/
@@ -1007,7 +1032,7 @@ entries:
     version: 0.14.2
   - apiVersion: v2
     appVersion: 0.11.3
-    created: "2025-07-09T02:42:09.167130038Z"
+    created: "2025-07-09T14:16:31.698294497Z"
     description: Platform devportal helm chart.
     digest: 90597dc73d5c9ddbd7eab82754f9a2ac54cdffa8e33599e37350cce383b39fc6
     home: https://platform.vee.codes/
@@ -1026,7 +1051,7 @@ entries:
     version: 0.14.1
   - apiVersion: v2
     appVersion: 0.10.0
-    created: "2025-07-09T02:42:09.166508976Z"
+    created: "2025-07-09T14:16:31.697599717Z"
     description: Platform devportal helm chart.
     digest: daf46d176cdb3ee8f4cd6f034d1e70ac82a1642b199f5647c64f756fd18a281b
     home: https://platform.vee.codes/
@@ -1045,7 +1070,7 @@ entries:
     version: 0.14.0
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2025-07-09T02:42:09.165832749Z"
+    created: "2025-07-09T14:16:31.696920586Z"
     description: Platform devportal helm chart.
     digest: 72ea993ccd4e17aca919663384c95301b6f9a9653bafddac33a35e9152a7fc43
     home: https://platform.vee.codes/
@@ -1064,7 +1089,7 @@ entries:
     version: 0.13.3
   - apiVersion: v2
     appVersion: 0.9.2
-    created: "2025-07-09T02:42:09.165147946Z"
+    created: "2025-07-09T14:16:31.696210407Z"
     description: Platform devportal helm chart.
     digest: 9e5b82ab433155b16a1d4d274b6d6baac7750672fb9d9340771dfd0dda4c5604
     home: https://platform.vee.codes/
@@ -1083,7 +1108,7 @@ entries:
     version: 0.13.2
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2025-07-09T02:42:09.164489393Z"
+    created: "2025-07-09T14:16:31.695473308Z"
     description: Platform devportal helm chart.
     digest: f4a19077fc5b2cf9f2817f98d24407bc6a7bc67553355541ee7f3113bf9bde44
     home: https://platform.vee.codes/
@@ -1102,7 +1127,7 @@ entries:
     version: 0.13.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2025-07-09T02:42:09.163853903Z"
+    created: "2025-07-09T14:16:31.694683108Z"
     description: Platform devportal helm chart.
     digest: d7f13846dffebe1dcd37406bc5d99cb8a7929e6e56c3ee8de90750a1552a1d9f
     home: https://platform.vee.codes/
@@ -1121,7 +1146,7 @@ entries:
     version: 0.13.0
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2025-07-09T02:42:09.163210518Z"
+    created: "2025-07-09T14:16:31.692813473Z"
     description: Platform devportal helm chart.
     digest: b45511d653736655922ae5348e69367cd27d5d1894a8cd2fb6c9b6289e61b914
     home: https://platform.vee.codes/
@@ -1140,7 +1165,7 @@ entries:
     version: 0.12.1
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2025-07-09T02:42:09.162627598Z"
+    created: "2025-07-09T14:16:31.692226065Z"
     description: Platform devportal helm chart.
     digest: 8a6311ddfc1cc65e162241357b3349477f363fb89e8c97080c58e2be7bfc2faa
     home: https://platform.vee.codes/
@@ -1159,7 +1184,7 @@ entries:
     version: 0.12.0
   - apiVersion: v2
     appVersion: 0.7.4
-    created: "2025-07-09T02:42:09.161015948Z"
+    created: "2025-07-09T14:16:31.691605105Z"
     description: Platform devportal helm chart.
     digest: 298e41c974ebaf8c4abbc0622f33a773aa3d7aa9054be94b2841b3028f4cd670
     home: https://platform.vee.codes/
@@ -1178,7 +1203,7 @@ entries:
     version: 0.11.1
   - apiVersion: v2
     appVersion: 0.7.2
-    created: "2025-07-09T02:42:09.160365219Z"
+    created: "2025-07-09T14:16:31.690916637Z"
     description: Platform devportal helm chart.
     digest: ae504fa84f1a6ad8ddb3fc258c5d7a0204f61c1a710a970173ef934bb5c91db8
     home: https://platform.vee.codes/
@@ -1197,7 +1222,7 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 0.7.1
-    created: "2025-07-09T02:42:09.159669886Z"
+    created: "2025-07-09T14:16:31.690189706Z"
     description: Platform devportal helm chart.
     digest: cf194fc8880c81b0f557857e088145b9ec09f4ae740b4dafe989ff78b7029880
     home: https://platform.vee.codes/
@@ -1216,7 +1241,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 0.7.1
-    created: "2025-07-09T02:42:09.272609192Z"
+    created: "2025-07-09T14:16:31.787865836Z"
     description: Platform devportal helm chart.
     digest: d9cff5bacaec65ce3d48cb828cbbd090fbbe365a4ab4e528145045c5d5f29b36
     home: https://platform.vee.codes/
@@ -1235,7 +1260,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.7.1
-    created: "2025-07-09T02:42:09.271966479Z"
+    created: "2025-07-09T14:16:31.787285202Z"
     description: Platform devportal helm chart.
     digest: 182bea15934670ec34c4aa0f2584cb6e8ba9eab20492c643d0f8d73307116445
     home: https://platform.vee.codes/
@@ -1254,7 +1279,7 @@ entries:
     version: 0.8.1
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2025-07-09T02:42:09.270536136Z"
+    created: "2025-07-09T14:16:31.786671705Z"
     description: Platform devportal helm chart.
     digest: d58d8cb8485efc0959a3268b94e07fcd4c33e9a87f410ac5c2fa39a7e4b44cfe
     home: https://platform.vee.codes/
@@ -1273,7 +1298,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2025-07-09T02:42:09.269924511Z"
+    created: "2025-07-09T14:16:31.786055724Z"
     description: Platform devportal helm chart.
     digest: 73b125dcf901083c4a129b34a0e66987d117d539423bb8f3482832ecae43b1f0
     home: https://platform.vee.codes/
@@ -1291,7 +1316,7 @@ entries:
     version: 0.7.7
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2025-07-09T02:42:09.269331472Z"
+    created: "2025-07-09T14:16:31.78548611Z"
     description: Platform devportal helm chart.
     digest: cffcf0077ee59bda5e0f4eda931e76df8ed49b020748c41736afbc68337c9259
     home: https://platform.vee.codes/
@@ -1309,7 +1334,7 @@ entries:
     version: 0.7.6
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2025-07-09T02:42:09.268763179Z"
+    created: "2025-07-09T14:16:31.784904653Z"
     description: Platform devportal helm chart.
     digest: a84e6ae7dc7e46f3df6e344608d103ab813e7d25967bf34e55b63565778180d7
     home: https://platform.vee.codes/
@@ -1327,7 +1352,7 @@ entries:
     version: 0.7.5
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2025-07-09T02:42:09.268193203Z"
+    created: "2025-07-09T14:16:31.784327736Z"
     description: Platform devportal helm chart.
     digest: 358b2f486b1f390f563c346e8cdc6cf792b0bb199e2739cce98775d1653df21e
     home: https://platform.vee.codes/
@@ -1345,7 +1370,7 @@ entries:
     version: 0.7.4
   - apiVersion: v2
     appVersion: 0.5.6
-    created: "2025-07-09T02:42:09.267641Z"
+    created: "2025-07-09T14:16:31.783708658Z"
     description: Platform devportal helm chart.
     digest: 060614796c44587da2861bd9d8377b742b2ebf8d6fc9225cac3fb35f7e07130f
     home: https://platform.vee.codes/
@@ -1363,7 +1388,7 @@ entries:
     version: 0.7.3
   - apiVersion: v2
     appVersion: 0.5.5
-    created: "2025-07-09T02:42:09.267090581Z"
+    created: "2025-07-09T14:16:31.782770131Z"
     description: Platform devportal helm chart.
     digest: 4e50c9487f7a6f2fc67e53f253c2cb41c208adeaf25a72383174c9402b766dc2
     home: https://platform.vee.codes/
@@ -1381,7 +1406,7 @@ entries:
     version: 0.7.2
   - apiVersion: v2
     appVersion: 0.5.5
-    created: "2025-07-09T02:42:09.266578314Z"
+    created: "2025-07-09T14:16:31.781879362Z"
     description: Platform devportal helm chart.
     digest: 4dd5ff73b5d70a31a22b1c7a861b309d805357c47b1fac937b194f9db448b7f0
     home: https://platform.vee.codes/
@@ -1399,7 +1424,7 @@ entries:
     version: 0.7.1
   - apiVersion: v2
     appVersion: 0.5.5
-    created: "2025-07-09T02:42:09.26604661Z"
+    created: "2025-07-09T14:16:31.781327301Z"
     description: Platform devportal helm chart.
     digest: 30e1fc84681c2f91f3ba162bb9df102d2dc764dbd18046fdc6f32650227270b4
     home: https://platform.vee.codes/
@@ -1417,7 +1442,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.5.5
-    created: "2025-07-09T02:42:09.265514335Z"
+    created: "2025-07-09T14:16:31.780777043Z"
     description: Platform devportal helm chart.
     digest: 34d227f06074aa66e9bf277ae30c55cde4d87297ff578c325e39896eb57fba7f
     home: https://platform.vee.codes/
@@ -1435,7 +1460,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2025-07-09T02:42:09.264556266Z"
+    created: "2025-07-09T14:16:31.780265779Z"
     description: Platform devportal helm chart.
     digest: 16b439f1e4dc18aacd8216ae213804b5706e93612e0cb6f7aded03a717a0613e
     home: https://platform.vee.codes/
@@ -1453,7 +1478,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2025-07-09T02:42:09.263885109Z"
+    created: "2025-07-09T14:16:31.779741711Z"
     description: Platform devportal helm chart.
     digest: 3e5e741ea17d5cba2c99898291738eecafe620d72af7bc07e8e78355345a5f89
     home: https://platform.vee.codes/
@@ -1471,7 +1496,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2025-07-09T02:42:09.263343898Z"
+    created: "2025-07-09T14:16:31.779205971Z"
     description: Platform devportal helm chart.
     digest: 32c92bced9b0b80fa6b90c9ed53997aeccd36d0205ac22484e795fdbc2ae8ac9
     home: https://platform.vee.codes/
@@ -1489,7 +1514,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2025-07-09T02:42:09.262851488Z"
+    created: "2025-07-09T14:16:31.778661064Z"
     description: Platform devportal helm chart.
     digest: 94f5d7799eec06b097a3ab939547f4d29f3f839a84fc89a57483fc3776667ada
     home: https://platform.vee.codes/
@@ -1507,7 +1532,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2025-07-09T02:42:09.262389516Z"
+    created: "2025-07-09T14:16:31.778199684Z"
     description: Platform devportal helm chart.
     digest: a492beabd5e1d1b8d5ff48ed7288dce5172edc2278dff5a63d0ae23fcf89f5da
     home: https://platform.vee.codes/
@@ -1525,7 +1550,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-07-09T02:42:09.261935378Z"
+    created: "2025-07-09T14:16:31.777719428Z"
     description: A Helm chart for Kubernetes
     digest: 8cf54106d10a4fc8c1a08e3d0bbda9a2ee791259fe5c86c4b19ec52abcd2bfd4
     home: https://platform.vee.codes/
@@ -1543,7 +1568,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-07-09T02:42:09.240342604Z"
+    created: "2025-07-09T14:16:31.753858489Z"
     description: A Helm chart for Kubernetes
     digest: bbf7ba15feedd70e3a16107afbec5bb5c6db5955278c7469bb7dad24b442d3ce
     home: https://platform.vee.codes/
@@ -1561,7 +1586,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-07-09T02:42:09.239950093Z"
+    created: "2025-07-09T14:16:31.753465457Z"
     description: A Helm chart for Kubernetes
     digest: 64a0254af873f95c5b51b8c301777873f01e9bf25d8c3179e9887c70130311af
     home: https://platform.vee.codes/
@@ -1579,7 +1604,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-07-09T02:42:09.235810939Z"
+    created: "2025-07-09T14:16:31.753061967Z"
     description: A Helm chart for Kubernetes
     digest: 5326aa8e20830faf41f15b3efe6a7490cdd71b5c68040303a76b598a551882d6
     home: https://platform.vee.codes/
@@ -1597,7 +1622,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-07-09T02:42:09.235412837Z"
+    created: "2025-07-09T14:16:31.752689585Z"
     description: A Helm chart for Kubernetes
     digest: 870bad286dd3c5d0c54ea9448adcc16f50735efa718e7eab7369fd5549ecd0f9
     home: https://platform.vee.codes/
@@ -1615,7 +1640,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-07-09T02:42:09.234610114Z"
+    created: "2025-07-09T14:16:31.752299489Z"
     description: A Helm chart for Kubernetes
     digest: 7b1c0158db473f1fa07858d498bc264f7c0f4378a3a4e7e045f117de92abb5d3
     home: https://platform.vee.codes/
@@ -1633,7 +1658,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-07-09T02:42:09.158984863Z"
+    created: "2025-07-09T14:16:31.689319215Z"
     description: A Helm chart for Kubernetes
     digest: 0bd276e240d82cb81df991d8427de021e791ac851b7519fbfe1f5bc315790a0e
     name: devportal
@@ -1643,7 +1668,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-07-09T02:42:09.158697961Z"
+    created: "2025-07-09T14:16:31.688880738Z"
     description: A Helm chart for Kubernetes
     digest: bc1a2d87d8a9b27ef5f6224b3780516040313fbe298d808e81f90bb5e5ccc4dc
     name: devportal
@@ -1654,7 +1679,7 @@ entries:
   devportal-admin-ui:
   - apiVersion: v2
     appVersion: 0.4.30
-    created: "2025-07-09T02:42:09.280981638Z"
+    created: "2025-07-09T14:16:31.797184697Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: dea81313a4d51e7c7ac8809a00d91b36644b9eef1d665fbff8b66dd7fce06fb1
     name: devportal-admin-ui
@@ -1664,7 +1689,7 @@ entries:
     version: 0.5.4
   - apiVersion: v2
     appVersion: 0.4.27
-    created: "2025-07-09T02:42:09.2806173Z"
+    created: "2025-07-09T14:16:31.796755157Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: bef7d629dc0644db5ae0dc55d1d4d763bfd703f391ac218d56882b465a3821d6
     name: devportal-admin-ui
@@ -1674,7 +1699,7 @@ entries:
     version: 0.5.3
   - apiVersion: v2
     appVersion: 0.4.15
-    created: "2025-07-09T02:42:09.280236722Z"
+    created: "2025-07-09T14:16:31.796350173Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: b75ec995f8435188942fba874ec85001d6f6ce81196a2454d8b36f1e9327eceb
     name: devportal-admin-ui
@@ -1684,7 +1709,7 @@ entries:
     version: 0.5.2
   - apiVersion: v2
     appVersion: 0.4.14
-    created: "2025-07-09T02:42:09.279874438Z"
+    created: "2025-07-09T14:16:31.79562724Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: 3ed815f5b1a301d65f50a7527a6117fc55e8e57fb7f11e4d28729027551eeb59
     name: devportal-admin-ui
@@ -1694,7 +1719,7 @@ entries:
     version: 0.5.1
   - apiVersion: v2
     appVersion: 0.4.10
-    created: "2025-07-09T02:42:09.279503598Z"
+    created: "2025-07-09T14:16:31.794777725Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: 449fa020f23b56f860d119e1f5f75c0a156a12819aef5527107d9e56c3ca6206
     name: devportal-admin-ui
@@ -1704,7 +1729,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.8
-    created: "2025-07-09T02:42:09.279115274Z"
+    created: "2025-07-09T14:16:31.794411154Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: d02768d6642e5bf26a17551188cb65a14c0036ceea14d26f972cadd87c44699d
     name: devportal-admin-ui
@@ -1714,7 +1739,7 @@ entries:
     version: 0.4.5
   - apiVersion: v2
     appVersion: 0.4.7
-    created: "2025-07-09T02:42:09.278734586Z"
+    created: "2025-07-09T14:16:31.794048401Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: af8665bf870373cc9e61687f2b8436a335d22d9dcb70a94631bdadfb7f8e7510
     name: devportal-admin-ui
@@ -1724,7 +1749,7 @@ entries:
     version: 0.4.4
   - apiVersion: v2
     appVersion: 0.4.5
-    created: "2025-07-09T02:42:09.278350521Z"
+    created: "2025-07-09T14:16:31.793695716Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: ef2b41b3ff52df0e0cb64b09ff4091ef9acc79b97a8729133290f20459c685b3
     name: devportal-admin-ui
@@ -1734,7 +1759,7 @@ entries:
     version: 0.4.3
   - apiVersion: v2
     appVersion: 0.4.2
-    created: "2025-07-09T02:42:09.277970714Z"
+    created: "2025-07-09T14:16:31.793369771Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: e1308f943e784167b72247f44eea82099a0702ede1c2279ccc9aa6e7654c15e8
     name: devportal-admin-ui
@@ -1744,7 +1769,7 @@ entries:
     version: 0.4.2
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2025-07-09T02:42:09.277097445Z"
+    created: "2025-07-09T14:16:31.793020693Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: 0e0015bae7d7d8e5db14bb7f4c6d99622f56132b8ecefc45bee32c07238c2803
     name: devportal-admin-ui
@@ -1754,7 +1779,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2025-07-09T02:42:09.276583425Z"
+    created: "2025-07-09T14:16:31.792688526Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: cc90564cbc84e15ab1fcfacd3b4d14f2e0182452726a28891be82ced2984f7ac
     name: devportal-admin-ui
@@ -1764,7 +1789,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2025-07-09T02:42:09.276241599Z"
+    created: "2025-07-09T14:16:31.792359516Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: cfe5f901308ea402f840e2e36a3fea44b295fa30e05505fe4f6a8afb6e92279f
     name: devportal-admin-ui
@@ -1774,7 +1799,7 @@ entries:
     version: 0.3.4
   - apiVersion: v2
     appVersion: 0.2.18
-    created: "2025-07-09T02:42:09.275933297Z"
+    created: "2025-07-09T14:16:31.792022661Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: a3374762192c0a34335b7c201080f736f6d61b2498320cc3381aad4a6e0d0cd1
     name: devportal-admin-ui
@@ -1784,7 +1809,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: 0.2.4
-    created: "2025-07-09T02:42:09.275629143Z"
+    created: "2025-07-09T14:16:31.791713568Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: e8175f425de127fd17858dae26df3e6c36439ca23dbb62156281955d8d46417e
     name: devportal-admin-ui
@@ -1794,7 +1819,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 0.2.4
-    created: "2025-07-09T02:42:09.275297637Z"
+    created: "2025-07-09T14:16:31.791398715Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: 5d94853879e61293eede025b05d7f340a0df441a750892d9f472e7df0006250d
     name: devportal-admin-ui
@@ -1804,7 +1829,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.2.3
-    created: "2025-07-09T02:42:09.274994175Z"
+    created: "2025-07-09T14:16:31.791055908Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: bac9e9dd3aea83dff4673920a641f36860307d792d1466761be04ec9ab4b6b44
     name: devportal-admin-ui
@@ -1814,7 +1839,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.1.52
-    created: "2025-07-09T02:42:09.274690772Z"
+    created: "2025-07-09T14:16:31.790732108Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: 11fa200c70b1654c9ef287b318e3324828a490bb8e46616c5ac9d041f7e33441
     name: devportal-admin-ui
@@ -1824,7 +1849,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 0.1.50
-    created: "2025-07-09T02:42:09.274339809Z"
+    created: "2025-07-09T14:16:31.790410662Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: f8952cb6b220ab0aa7cef4b8b0466577c8b95fe7a1775f35a0592917901e48f9
     name: devportal-admin-ui
@@ -1834,7 +1859,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 0.1.41
-    created: "2025-07-09T02:42:09.274039973Z"
+    created: "2025-07-09T14:16:31.789935486Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: a1576ed177754d6fbd941dc0424f484dcb96f0bbfa2e0f59b7d0f98a50ba2dee
     name: devportal-admin-ui
@@ -1844,7 +1869,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 0.1.41
-    created: "2025-07-09T02:42:09.273714018Z"
+    created: "2025-07-09T14:16:31.788881762Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: 3ae40b31d13d5c60c3271c22bf943d88d8b4f200ff8732e59a4dca2ce7873051
     name: devportal-admin-ui
@@ -1854,7 +1879,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2025-07-09T02:42:09.273280629Z"
+    created: "2025-07-09T14:16:31.788554275Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: e563a83ef2d5a97f69976adb4109f7dbae83ddd8e6fe84438ba9d61a7b6a924e
     name: devportal-admin-ui
@@ -1864,7 +1889,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.10
-    created: "2025-07-09T02:42:09.272946028Z"
+    created: "2025-07-09T14:16:31.788223681Z"
     description: Update your Veecode Platform Devportal environment easily
     digest: 2e7f22c848ed10910936858745ede3fdd996973bc61fdef4e81db445c611dee0
     name: devportal-admin-ui
@@ -1872,4 +1897,4 @@ entries:
     urls:
     - devportal-admin-ui/devportal-admin-ui-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-09T02:42:09.15361738Z"
+generated: "2025-07-09T14:16:31.67724521Z"
