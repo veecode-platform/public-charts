@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.0.11
+dependencies:
+- - name: common
+  repository: https://charts.bitnami.com/bitnami
+  tags:
+  - bitnami-common
+  version: 2.31.3
+description: Platform devportal helm chart.
+home: https://platform.vee.codes/
+icon: https://platform.vee.codes/android-chrome-512x512.png
+keywords:
+- - veecode
+- - platform
+- - devportal
+- - backstage
+- - api management
+- - idp
+name: devportal
+type: application
+version: 0.20.16
+
+...
+files:
+  devportal-0.20.16.tgz: sha256:55d37405ef294e92f0e66a51959266aef20c5e17677830f639bf1673a3173f0a
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJodT13CRCN3pvHOUyOqwAALxgMAGmZzMvKUg84DhH7jDmLt1TJ
+OvTFALudEpJww4TQffBP5kZcQJ9pOUGCdVJRot/5sw7lrwjchjCIE1jTFwsD68zd
+0UcT9yXU0EmOfiqJEE9x44rac988M1TAviIDkWmI4RrToxdiOx6kLs3D6kNo7GlN
+47/Pp3ywFz64jyP1RI9R9Et+un2kRjqMyHzKfXRMsYoTm4wUJ46gDak5ij/b3EeL
+FVjF/OVrb/qFWqf4aklaEV9RnBUFpF+DHBAaTmXwaTO0zHefrtXBgugP0cHQll1y
+sIs4Z1/QCJGLDQGJRm1L8WZQSUh6Rqn6NVZK1cYUzNmhwMVG1Wdfiu/Bh6eW4kDR
+khQgco9L4kwvJkAcZgKaHceOtBahGF0ZZEkFlr6U3Lv+Ge/sHMcMR9ZINDf5BBJB
+L3BgKewoGjkRtigiXbU00JJqCAa/OE/jjy0EqMDNIjKth6XtLub2oXgw6S3Izcbn
+o3JmHSlQ8TsRrfE/xdekMEK248sm4sJkkosYbU6SBg==
+=qtg2
+-----END PGP SIGNATURE-----
